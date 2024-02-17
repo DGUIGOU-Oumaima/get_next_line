@@ -6,7 +6,7 @@
 /*   By: odguigou <odguigou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/17 13:55:23 by odguigou          #+#    #+#             */
-/*   Updated: 2024/02/17 14:45:06 by odguigou         ###   ########.fr       */
+/*   Updated: 2024/02/17 15:26:04 by odguigou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,34 +106,3 @@ char	*get_next_line(int fd)
 	left_str[fd] = ft_get_line_after_nwline(left_str[fd]);
 	return (the_line);
 }
-// #include <stdio.h>
-// #include <fcntl.h>
-// int main()
-// {
-//     int i;
-//     int fd1;
-//     int fd2;
-//     int fd3;
-//     char *str1;
-//     char *str2;
-//     char *str3;
-    
-
-//     fd1 = open("test1.txt", O_RDONLY);
-//     fd2 = open("test2.txt", O_RDONLY);
-//     fd3 = open("test3.txt", O_RDONLY);
-//     i=0;
-
-//     while(i++<4)
-//     {
-//         str1 = get_next_line(fd1);
-//         printf("%s", str1);
-//         str2 = get_next_line(fd2);
-//         printf("%s", str2);
-//         str3 = get_next_line(fd3);
-//         printf("%s", str3);
-//     }
-//     close(fd1);
-//     close(fd2);
-//     close(fd3);
-// }
