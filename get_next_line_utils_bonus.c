@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: odguigou <odguigou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/17 09:44:11 by odguigou          #+#    #+#             */
-/*   Updated: 2024/02/17 13:53:16 by odguigou         ###   ########.fr       */
+/*   Created: 2024/02/17 13:55:34 by odguigou          #+#    #+#             */
+/*   Updated: 2024/02/17 14:31:04 by odguigou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t	ft_strlen(char *str)
 {

@@ -1,0 +1,27 @@
+Il semble y avoir une confusion concernant le terme "relink". Dans le contexte de 
+la programmation et des Makefiles, le terme "relink" n'est pas couramment utilisé. Cependant, 
+je peux expliquer ce qui se passe généralement lorsqu'on parle de liens et de relinks dans 
+le processus de compilation d'un programme.
+
+Linkage (liaison) : La liaison est l'étape du processus de compilation où les différents
+fichiers objet générés à partir des fichiers source sont combinés pour créer un exécutable ou 
+une bibliothèque partagée. Pendant cette étape, les références aux fonctions et variables 
+externes sont résolues et les adresses de mémoire sont fixées.
+
+Relink (reliage) : Le terme "relink" pourrait être utilisé pour décrire le processus 
+de liaison qui se produit lorsque vous exécutez à nouveau votre programme après avoir apporté
+des modifications à vos fichiers source ou après avoir reconstruit votre projet. Dans ce cas,
+ si certains fichiers objets ont été modifiés, le processus de liaison doit être répété pour 
+ refléter ces modifications dans l'exécutable final.
+
+Relinkage (reliage dynamique) : Dans certains contextes, "relink" peut également se référer 
+au processus de relinkage dynamique qui se produit lors de l'exécution d'un programme qui 
+dépend de bibliothèques partagées (par exemple, les bibliothèques partagées sous Linux, 
+les DLL sous Windows). Lorsque vous exécutez un programme, le système d'exploitation doit 
+charger les bibliothèques partagées nécessaires et lier les symboles de ces bibliothèques
+ avec les symboles de votre programme, formant ainsi un exécutable chargé en mémoire.
+
+En résumé, "relink" peut faire référence à la répétition du processus de liaison lors de la
+ reconstruction d'un projet ou à la liaison dynamique qui se produit lors de l'exécution 
+ d'un programme dépendant de bibliothèques partagées. Cependant, cela dépend du contexte 
+ spécifique dans lequel le terme est utilisé.
